@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import type { Task, TeamMember } from '../types/index.ts';
-import { X, Calendar, User, Tag, AlertTriangle } from 'lucide-react';
+import { X, Calendar, Tag, AlertTriangle } from 'lucide-react';
 
 interface TaskModalProps {
   isOpen: boolean;

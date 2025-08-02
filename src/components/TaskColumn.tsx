@@ -51,7 +51,7 @@ const TaskColumn: React.FC<TaskColumnProps> = ({
       {/* Add Task Button */}
       <button
         onClick={() => onAddTask(column.status)}
-        disabled={isAtLimit}
+        disabled={!!isAtLimit}
         className={`flex items-center justify-center space-x-2 p-3 rounded-lg border-2 border-dashed mb-4 transition-all duration-200 ${
           isAtLimit
             ? 'border-gray-200 text-gray-400 cursor-not-allowed'

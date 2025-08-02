@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Header from './components/Header';
 import TaskBoard from './components/TaskBoard.tsx';
 import TaskModal from './components/TaskModal';
